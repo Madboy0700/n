@@ -12,13 +12,13 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "24358241"))
+API_ID = int(getenv("API_ID", "29058022"))
 
-API_HASH = getenv("API_HASH", "f7f91ad6e6593bd033cb535cace0a9a2")
+API_HASH = getenv("API_HASH", "56e67fa171fbc2791bf7f47d412fd447")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7227577890:AAGWzWhNg35H-6B5bH4vtNLtkbNohNZ5V3I")
+BOT_TOKEN = getenv("BOT_TOKEN", "6757500151:AAHzbQnNfc52tnsoqHOxe5JCjuUlcugQWCc")
 # Database to save your chats and stats.
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
@@ -41,17 +41,17 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002238574089"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","Pulse Music Bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","geceExpressBot")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "6347598494").split())
+    map(int, getenv("OWNER_ID", "5901320319").split())
 
 )  # Input type must be interger
 
@@ -83,11 +83,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", None) # Example:- https://t.me/ArchBots
+    "SUPPORT_CHANNEL", None) # Example:- https://t.me/DostTicaret
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", None)  # Example:- https://t.me/ARCH_SUPPORTS
+    "SUPPORT_GROUP", None)  # Example:- https://t.me/tantanasohbet
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 
@@ -135,9 +135,10 @@ GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2041df9cbcd142cba804578a2cf85939")
 
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "80ffd296320e49299830e80b11e3bf73")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 
@@ -183,7 +184,7 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "BAFzrWEAXv6GBsk-Lq9kgDeaQn2H60Px49V1dkjF0IU7UaKcTC766u3degCzjvlahp8XyrfBE0SA8tF6Gz32znWkGdGYgerzF5lYCSHhR69ONGH1uIQyhci02aLXg_RoEf9ybFAv_DM8ZXj4xkCukbeE2Yom1Zv4CxKenWUiHWsiMXc1L-Wz18kIAolOIppREf87jfWMKfqXYEHgvN5nnsXcNP9rBZIpBP92OxOTtA0uDQCP8IJCzT8QKITndbwzlnQcj6sU_pBFmRqE1VcOTjDs_SF3TBbj7Zxs9pPu_sff5E0fM_CQyzekUL_-THwODJJjfckj9Fs_xzzTuLBWRXcl7CJSiwAAAAGwFvaxAA")
+STRING1 = getenv("STRING_SESSION", "BABKJ2c_Bb8_44B4EtNfxEiDeIo2S2BR9vb-j0beiuiDe4g-7bVpwtDFbMp6rvUX_aAIcmC1QCaAbBFga6im-hTaLA-wbSbklNmKwO_catrz08erhbsXsQZc5d9V9YnUA7HbBLz4gJdDiP0ilQ398Ix5-LV_K3ygEAFY2arxyGifZ-IHgitYgjSaMVpZ4aObpoNuopxbBPxOtjEANYnzn34vSLda_884mFgL2eoRPy8n5VIWnbsH1yp9OO4eV4Nb0OA_ElzvuOXU2dS4xIHUJSz-w73VFugY4gqy5H3swbgY6ByZOGzrOBf_XWPFooqn9_8EWhPy20roFky5vq2VzC88AAAAAb07yrgA")
 STRING2 = getenv("STRING_SESSION2", None)
 
 STRING3 = getenv("STRING_SESSION3", None)
