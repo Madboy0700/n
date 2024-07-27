@@ -57,11 +57,11 @@ OWNER_ID = list(
 
 # Get it from http://dashboard.heroku.com/account
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-1f0b9d66-abb4-4a57-b2e6-6967ce74b022")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-8040c0fe-6107-4b4c-802b-af5d186c9b7e")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "pulsemuzik")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "Madboy")
 
 # For customized or modified Repository
 
