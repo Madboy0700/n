@@ -18,10 +18,11 @@ API_HASH = getenv("API_HASH", "56e67fa171fbc2791bf7f47d412fd447")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6757500151:AAGZPI1RWyxcsOhn427Jaw5HePv5Cmxpv_g")
+BOT_TOKEN = getenv("BOT_TOKEN", "6757500151:AAE0L5Kht5u52SYl0rvcTTuIWosCKG83Qp8")
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("mongodb+srv://madboy1:madboy11@madboy1.wyklras.mongodb.net/?retryWrites=true&w=majority&appName=madboy1")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madboy1:madboy11@madboy1.wyklras.mongodb.net/?retryWrites=true&w=majority&appName=madboy1")
+
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
 DURATION_LIMIT_MIN = int(
