@@ -45,7 +45,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","geceExpressBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","GeceExpressBot")
 
 # Your User ID.
 
@@ -61,7 +61,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-8040c0fe-6107-4b4c-802b-af5d186c
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "Madboy")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "madboy")
 
 # For customized or modified Repository
 
@@ -83,11 +83,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", "github_pat_11BJ4BJJA0hLe1l3HA6fdX_k9GDL0ucIFDlF
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", None) # Example:- https://t.me/DostTicaret
+    "SUPPORT_CHANNEL", None) # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", None)  # Example:- https://t.me/tantanasohbet
+    "SUPPORT_GROUP", None)  # Example:- https://t.me/ARCH_SUPPORTS
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 
@@ -139,7 +139,6 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2041df9cbcd142cba804578a2cf8593
 
 
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "80ffd296320e49299830e80b11e3bf73")
-
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "10"))
