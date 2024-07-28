@@ -62,7 +62,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-1f0b9d66-abb4-4a57-b2e6-6967ce74
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "geceekspess")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "geceexpress")
 
 # For customized or modified Repository
 
