@@ -18,11 +18,11 @@ API_HASH = getenv("API_HASH", "eaa33aa1d9c47b197c3c81a8da988378")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6757500151:AAFxGBD8W6THsmKtBL1ZHnunzzEkTYQWQ70")
+BOT_TOKEN = getenv("BOT_TOKEN", "6757500151:AAF-Ew7UnzP08fQtfss1YsWQLyCmXRffnlw")
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://madpanel:madboy11@atlascluster.gprqayn.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
@@ -46,7 +46,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","GeceExpress Bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","GeceExpressBot")
 
 # Your User ID.
 
@@ -58,11 +58,11 @@ OWNER_ID = list(
 
 # Get it from http://dashboard.heroku.com/account
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-1f0b9d66-abb4-4a57-b2e6-6967ce74b022")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-8040c0fe-6107-4b4c-802b-af5d186c9b7e")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "geceexpress")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "madboy")
 
 # For customized or modified Repository
 
